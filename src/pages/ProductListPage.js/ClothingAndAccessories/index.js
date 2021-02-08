@@ -34,7 +34,7 @@ const ClothingAndAccessories = (props) => {
             >
               <img src={product.productPictures[0].img} />
             </Link>
-            <div>
+            <div style={{textAlign:"center"}}>
               <div className="caProductName">{product.name}</div>
               <div>
                 <Rating value="4.3" />
